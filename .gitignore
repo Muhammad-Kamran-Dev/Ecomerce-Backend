@@ -1,0 +1,4 @@
+// ignore node_modules folders 
+/node_modules
+
+config/config.env

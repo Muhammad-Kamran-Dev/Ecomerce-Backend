@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Product 1",
+      "description": ["Description for Product 1"],
+      "price": 19.99,
+      "ratings": 4.5,
+      "images": [
+        {
+          "publicId": "publicId1",
+          "url": "image_url1.jpg"
+        },
+        {
+          "publicId": "publicId2",
+          "url": "image_url2.jpg"
+        }
+      ],
+      "category": "Electronics",
+      "stock": 10,
+      "numOfReviews": 2,
+      "reviews": [
+        {
+          "user": "user_id_1",
+          "name": "John Doe",
+          "rating": 4.0,
+          "comment": "Great product!",
+          "createdAt": "2023-11-15T12:00:00Z"
+        },
+        {
+          "user": "user_id_2",
+          "name": "Jane Doe",
+          "rating": 5.0,
+          "comment": "Excellent quality!",
+          "createdAt": "2023-11-15T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Product 2",
+      "description": ["Description for Product 2"],
+      "price": 29.99,
+      "ratings": 3.8,
+      "images": [
+        {
+          "publicId": "publicId3",
+          "url": "image_url3.jpg"
+        },
+        {
+          "publicId": "publicId4",
+          "url": "image_url4.jpg"
+        }
+      ],
+      "category": "Clothing",
+      "stock": 15,
+      "numOfReviews": 1,
+      "reviews": [
+        {
+          "user": "user_id_3",
+          "name": "Alice Smith",
+          "rating": 3.8,
+          "comment": "Good product, but a bit expensive.",
+          "createdAt": "2023-11-15T13:00:00Z"
+        }
+      ]
+    }
+  ]
+  
