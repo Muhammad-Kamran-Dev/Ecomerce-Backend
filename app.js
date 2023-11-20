@@ -12,7 +12,10 @@ app.use(express.json({ limit: "50mb" }));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: [
+      "https://ecomerce-front-end-three.vercel.app",
+      "http://localhost:3000",
+    ],
   })
 );
 // Middleware to parse the cookies
