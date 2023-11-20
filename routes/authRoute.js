@@ -18,6 +18,7 @@ const {
   isUserAuthenticated,
   authorizeRoles,
 } = require("../middleware/authentication");
+const { testing } = require("../controllers/testController");
 
 const router = express.Router();
 
@@ -25,6 +26,9 @@ const router = express.Router();
 router.route("/signup").post(signupUser);
 router.route("/login").post(loginUser);
 router.route("/logout").delete(LogoutUser);
+
+// testing route
+router.route("/test").get(testing);
 
 // Password reset routes
 router.route("/password/forgot").put(forgotPassword);

@@ -27,6 +27,10 @@ app.use(fileUpload());
 const products = require("./routes/productRoute");
 const auth = require("./routes/authRoute");
 const order = require("./routes/orderRoute");
+const testingRoute = require("./routes/testRoute");
+
+// testing route
+app.use("/api/v1/test", testingRoute);
 
 // Middleware to handle routes
 app.use("/api/v1/products", products);
